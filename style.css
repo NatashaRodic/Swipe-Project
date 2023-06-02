@@ -40,6 +40,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     padding: var(--spacing-sm) 0 0 0;
+    background-color: var(--purple-1);
 }
 
 h1 {
@@ -186,4 +187,16 @@ p {
 
 .with-icon:hover>img {
     transform: translateX(5px);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    color: var(--text-light);
+    margin: 0 var(--spacing-md);
 }

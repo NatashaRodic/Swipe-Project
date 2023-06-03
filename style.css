@@ -182,7 +182,7 @@ main {
 
 .subtitle,
 .subtitle2 {
-    color: var(--blue-1);
+    color: var(--purple-1);
     font-family: var(--heading-font);
     font-weight: 500px;
     font-size: var(--subtitle-size);
@@ -427,4 +427,22 @@ main {
 #terminal-code {
     max-width: 470px;
     border-radius: 20px;
+}
+
+/* WHY SWIPE SECTION */
+
+.why-swipe-section .card-container {
+    display: flex;
+    margin: var(--spacing-l) 0;
+}
+
+.why-swipe-section .card-container .card {
+    width: 25%;
+    padding: 0 var(--spacing-sm) 0 0;
+    margin: 0 var(--spacing-md) 0 0;
+    box-sizing: border-box;
+}
+
+.why-swipe-section .secondary-text {
+    color: var(--text-dark);
 }

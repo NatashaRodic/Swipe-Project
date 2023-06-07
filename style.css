@@ -533,13 +533,43 @@ main {
 .virtual-events-section {
     display: flex;
     justify-content: center;
+    padding: calc(var(--spacing-xl)*3) 0;
 }
 
 .virtual-events-section .primary-button {
     background-color: var(--purple-1);
-    margin: var(--spacing-md);
+    margin: var(--spacing-md) 0 0 0;
 }
 
 .virtual-events-section .primary-button:hover {
     background-color: var(--primary-accent);
+}
+
+.swipe-session-card {
+    height: 540px;
+    width: 446px;
+    box-shadow: var(--standard-box-shadow);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.swipe-session-card .card-top {
+    background-color: var(--purple-1);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.swipe-session-card .card-top::before {
+    background-color: var(--purple-1);
+    content: "";
+    height: 150%;
+    width: 100%;
+    position: absolute;
+    top: -40%;
+    transform: skewY(-5deg);
 }

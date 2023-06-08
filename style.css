@@ -621,3 +621,11 @@ main {
     width: 50%;
     font-weight: 700;
 }
+
+
+/* GETTING STARTED SECTION */
+
+.getting-started-section {
+    display: flex;
+    justify-content: center;
+}

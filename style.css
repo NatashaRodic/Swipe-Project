@@ -792,10 +792,18 @@ main {
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:850px) {
     .partners-grid img {
         width: 100%;
         height: auto;
+    }
+
+    .integration-section .col-left {
+        width: 60%;
+    }
+
+    .integration-section .col-right {
+        width: 40%;
     }
 }
 
@@ -806,11 +814,107 @@ main {
         --h1-height: 72px;
         --h3-size: 34px;
     }
+
+    /* UNIFIED PLATFORM */
+    .unified-platform-section h2 {
+        width: 100%;
+    }
+
+    /* INTEGRATION SECTION */
+    .integration-section .card-container {
+        flex-direction: column;
+    }
+
+    .integration-section .card-container .card {
+        width: 100%;
+    }
+
+    /* WHY SWIPE */
+
+    .why-swipe-section .card-container {
+        flex-wrap: wrap;
+    }
+
+    .why-swipe-section .card-container .card {
+        width: 50%;
+        margin: var(--spacing-md) 0;
+    }
+
+    /* GLOBAL SCALE SECTION */
+
+    .global-section .card-container {
+        flex-wrap: wrap;
+        margin: var(--spacing-xl) 0;
+    }
+
+    .global-section .card-container .card {
+        width: 50%;
+        margin: var(--spacing-md)0;
+    }
 }
 
 /* MOBILE SIZE */
 @media only screen and (max-width:550px) {
+    .two-column {
+        flex-direction: column;
+    }
+
+    .two-column .col-left {
+        width: 100%;
+    }
+
+    .two-column .col-right {
+        width: 100%;
+        padding-left: 0;
+    }
+
     .partners-grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    /* INTEGRATION SECTION */
+    .integration-section .col-right {
+        display: none;
+    }
+
+    .why-swipe-section .card-container .card {
+        width: 100%;
+        margin: var(--spacing-sm) 0;
+
+    }
+
+    /* GLOBAL SCALE SECTION */
+    .global-section .card-container .card {
+        width: 100%;
+        margin: var(--spacing-sm)0;
+    }
+
+    #globe {
+        opacity: 10%;
+    }
+
+    /* VIRTUAL EVENTS SECTION */
+    .virtual-events-section .swipe-session-card {
+        margin: var(--secondary-text-height) 0;
+        width: 100%;
+    }
+
+    .virtual-events-section .swipe-session-card .secondary-text {
+        width: 100%;
+    }
+
+    .virtual-events-section .swipe-session-card .card-top {
+        height: 40%;
+    }
+
+    #sessions-log {
+        width: 300px;
+    }
+}
+
+html,
+body {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
 }

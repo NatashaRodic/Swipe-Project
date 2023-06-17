@@ -792,8 +792,25 @@ main {
     }
 }
 
+@media only screen and (max-width:768px) {
+    .partners-grid img {
+        width: 100%;
+        height: auto;
+    }
+}
+
 /* TABLET SIZE */
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:768px) {
+    :root {
+        --h1-size: 64px;
+        --h1-height: 72px;
+        --h3-size: 34px;
+    }
+}
 
 /* MOBILE SIZE */
-@media only screen and (max-width:481px) {}
+@media only screen and (max-width:550px) {
+    .partners-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

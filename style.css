@@ -948,6 +948,9 @@ main {
     }
 
     /* WHY SWIPE */
+    .why-swipe-section {
+        padding: var(--spacing-md) 0 var(--spacing-xl) 0;
+    }
 
     .why-swipe-section .card-container {
         flex-wrap: wrap;
@@ -1019,9 +1022,26 @@ main {
         display: none;
     }
 
+    /* UNIFIED PLATFORM */
+    .unified-platform-section {
+        padding: var(--spacing-md) 0;
+    }
+
     /* INTEGRATION SECTION */
+    .integration-section {
+        padding: var(--spacing-l) 0;
+    }
+
+    .integration-section::before {
+        height: 850px;
+    }
+
     .integration-section .col-right {
         display: none;
+    }
+
+    .why-swipe-section {
+        padding: var(--spacing-l) 0;
     }
 
     .why-swipe-section .card-container .card {
@@ -1031,6 +1051,14 @@ main {
     }
 
     /* GLOBAL SCALE SECTION */
+    .global-section {
+        padding: var(--spacing-xl) 0 0 0;
+    }
+
+    .global-section .card-container {
+        margin: var(--spacing-md) 0;
+    }
+
     .global-section .card-container .card {
         width: 100%;
         margin: var(--spacing-sm)0;
@@ -1041,6 +1069,10 @@ main {
     }
 
     /* VIRTUAL EVENTS SECTION */
+    .virtual-events-section {
+        padding: 0;
+    }
+
     .virtual-events-section .swipe-session-card {
         margin: var(--secondary-text-height) 0;
         width: 100%;
@@ -1059,6 +1091,10 @@ main {
     }
 
     /* GETTING STARTED SECTION */
+    .getting-started-section {
+        padding: var(--spacing-md) 0;
+    }
+
     .getting-started-section .col-right {
         flex-wrap: wrap;
 

@@ -52,6 +52,7 @@ body {
 body {
     font-family: var(--body-font);
     color: var(--text-dark);
+    width: 100%;
     margin: 0;
     box-sizing: border-box;
     padding: var(--spacing-sm) 0 0 0;
@@ -64,6 +65,7 @@ body {
 
 main {
     width: 100%;
+    margin: var(--spacing-xl) 0 0 0;
 }
 
 h1 {
@@ -135,10 +137,6 @@ p {
     line-height: var(--p-height);
     font-weight: 400;
     margin: var(--spacing-md) 0;
-}
-
-main {
-    margin: var(--spacing-xl) 0 0 0;
 }
 
 /* Layout Styles */
@@ -278,7 +276,7 @@ main {
     width: 100%;
     max-width: var(--standard-width);
     padding: 0 var(--spacing-md);
-    margin: 0 0 var(--spacing-xl) 0;
+    margin: 0 0 var(--spacing-md) 0;
     box-sizing: border-box;
 
 }
@@ -1063,7 +1061,6 @@ main {
         display: none;
     }
 
-    /* WHY SWIPE SECTION */
     .why-swipe-section {
         padding: var(--spacing-l) 0;
     }
@@ -1129,7 +1126,6 @@ main {
         margin: var(--spacing-l) 0;
     }
 
-    /* FOOTER STYLES */
     .footer .section-container {
         flex-wrap: wrap;
     }

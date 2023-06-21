@@ -6,8 +6,8 @@
     --text-gray: #adbdcc;
     --body-font: "Robot", sans-serif;
     --heading-font: "Anek Telugu", sans-serif;
-    --h1-size: 94px;
-    --h1-height: 108px;
+    --h1-size: 90px;
+    --h1-height: 95px;
     --h2-size: 50px;
     --h2-height: 75px;
     --h3-size: 40px;
@@ -334,6 +334,7 @@ p {
 
 .hero p {
     max-width: 480px;
+    padding-top: var(--spacing-xl);
 }
 
 .button-container {
@@ -851,6 +852,10 @@ p {
     .hero-phone {
 
         transform: translateY(-85px);
+    }
+
+    .hero p {
+        padding-top: 84px;
     }
 
     /* PARTNERS GRID */
